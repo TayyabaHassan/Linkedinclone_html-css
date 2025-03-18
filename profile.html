@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="navbar-left">
+        <a href="index.html" class="logo"><img src="logo.png"></a>
+        <div class="search-box">
+            <img src="search.png">
+            <input type="text" placeholder="Search">
+        </div>
+    </div>
+    <div class="navbar-center">
+        <ul>
+            <li><a href="#" class="activ-link"><img src="home.png"><span>Home</span></a></li>
+            <li><a href="#"><img src="network.png"><span>My Network</span></a></li>
+            <li><a href="#"><img src="jobs.png"><span>Jobs</span></a></li>
+            <li><a href="#"><img src="message.png"><span>Messaging</span></a></li>
+            <li><a href="#"><img src="notification.png"><span>Notifications</span></a></li>
+        </ul>
+    </div>
+    <div class="navbar-right">
+        <div class="online">
+            <img src="user-1.png" class="nav-profile-img" onclick="toggleMenu()">
+        </div>
+    </div>
+    <!-----Profile dropdown menu----->
+<div class="profile-menu-wrap" id="profileMenu">
+        <div class="profile-menu">
+            <div class="user-info">
+                <img src="user-1.png">
+                <div>
+                    <h3>Rayan Walton</h3>
+                    <a href="#">See your profile</a>
+                </div>
+            </div>
+            <hr>
+            <a href="#" class="profile-menu-link">
+                <img src="feedback.png" >
+                <p>Give Feedback</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="setting.png" >
+                <p>Setting and Privacy</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="help.png" >
+                <p>Help & Support</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="display.png" >
+                <p>Display & Accesibility</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="logout.png" >
+                <p>Logout</p>
+                <span>></span>
+            </a>
+        </div>
+ </div>
+
+</nav>
+
+<!-----------NAVBAR CLosed-->
+
+<div class="container">
+    <div class="profile-main">
+            <div class="profile-container">
+                <img src="cover-pic.png" width="100%">
+                <div class="profile-container-inner">
+                    <img src="user-1.png" class="profile-pic" >
+                    <h1>Rayan Walton</h1>
+                    <b>Web developer at microsoft| Former developer at 
+                        Datastack and intern</b>
+                    <p>San Fransico, United States & middot <a href="#"> Contact info</a> </p>
+                    <div class="mutual-connection">
+                        <img src="user-2.png">
+                        <span>1 mutual connection: Orlando Digger</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#"  class="primary-btn"><img src="connect.png">Connect</a>
+                        <a href="#"><img src="chat.png">Message</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="profile-description">
+                <h2>About</h2>
+                <p>Life is something to be valued above everything else. In order
+                     to grow and express our virtues, life provides the opportunity
+                      to act in every moment. Through life we have opportunities to
+                       receive blessings every moment. 
+                    God has blessed us with many wonderful things to enjoy in life</p>
+                    <a href="#"class="see-more-link">See more....</a>
+            </div>
+
+            <div class="profile-description">
+                <h2>Experience</h2>
+                <div class="profile-desc-row">
+                    <img src="microsoft.png">
+                    <div>
+                        <h3>Lead Front-End Developer</h3>
+                        <b>microsoft &middot; Full-time</b>
+                        <b>Feb 2021- Present %middot; 1.5 years</b>
+                        <p>Computer programming is the process of performing a particular
+                            computation,usually by designing and building an executable computer programm. </p>
+                        <hr>
+                        </div>
+                </div>
+            </div>
+
+
+
+
+
+
+ </div>
+    <!--------profile-sidebar----->
+    <div class="profile-sidebar">
+
+    </div>
+
+
+
+
+
+<script>
+
+    let profileMenu=document.getElementById("profileMenu")
+
+    function toggleMenu(){
+    profileMenu.classList.toggle("profile-menu-wrap-open-menu");
+}
+
+
+
+</script>
+
+
+</body>
+</html>
+>
